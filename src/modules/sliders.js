@@ -1,6 +1,6 @@
 const sliders = () => {
     $(document).ready(function () {
-        if (document.location.pathname === "/index.html") {
+        if (document.location.pathname === "/Navigation/index.html" || document.location.pathname === "/Navigation/") {
             $('.reviews-slider').slick({
                 slidesToShow: 3,
                 speed: 1000,

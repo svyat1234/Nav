@@ -8,7 +8,6 @@ const header = () => {
     const active = document.querySelector('.header__nav__link-active')
 
 window.addEventListener('scroll', () => {
-    console.log(document.location.pathname);
     let value = window.scrollY
     if (value > 1 && value <= 500) {
         header.style.transform = "translateY(-100px)"
