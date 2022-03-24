@@ -21,10 +21,10 @@ window.addEventListener('scroll', () => {
 
         active.classList.add('header__nav__link-active-dark')
 
-        facebook.style.background = "url('../img/social/facebook-dark.png') no-repeat center / cover"
-        insta.style.background = "url('../img/social/insta-dark.png') no-repeat center / cover"
-        vk.style.background = "url('../img/social/vk-dark.png') no-repeat center / cover"
-        logo.style.background = "url('../img/logo-dark.png') no-repeat center / cover"
+        facebook.style.background = "url('./img/social/facebook-dark.png') no-repeat center / cover"
+        insta.style.background = "url('./img/social/insta-dark.png') no-repeat center / cover"
+        vk.style.background = "url('./img/social/vk-dark.png') no-repeat center / cover"
+        logo.style.background = "url('./img/logo-dark.png') no-repeat center / cover"
     } else  {
         header.style.transform = "translateY(0)"
         header.classList.remove('header-active')
@@ -35,10 +35,10 @@ window.addEventListener('scroll', () => {
             headerLink.classList.remove('header__nav__link-dark')
             headerLink.style.color = "#fff"
         })
-        facebook.style.background = "url('../img/social/facebook.png') no-repeat center / cover"
-        insta.style.background = "url('../img/social/insta.png') no-repeat center / cover"
-        vk.style.background = "url('../img/social/vk.png') no-repeat center / cover"
-        logo.style.background = "url('../img/logo.png') no-repeat center / cover"
+        facebook.style.background = "url('./img/social/facebook.png') no-repeat center / cover"
+        insta.style.background = "url('./img/social/insta.png') no-repeat center / cover"
+        vk.style.background = "url('./img/social/vk.png') no-repeat center / cover"
+        logo.style.background = "url('./img/logo.png') no-repeat center / cover"
     }
 
 })
