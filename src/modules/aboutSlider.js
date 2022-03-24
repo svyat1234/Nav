@@ -1,5 +1,5 @@
 const aboutSlider = () => {
-    if(document.location.pathname === "/about.html" || document.location.pathname === "Navigation/about.html") {
+    if(document.location.pathname === "/about.html" || document.location.pathname === "/Navigation/about.html") {
         const slider = document.querySelector('.info__slider')
         const slides = document.querySelectorAll('.info__slide')
         const dots = document.querySelectorAll('.info__slider__dot')
