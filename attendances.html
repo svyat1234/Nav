@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АО Навигационное оборудование</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js" defer></script>
+    <script src="./dist/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block">
+            <a href="index.html" class="logo__link"><div class="logo__link__img"></div></a>
+           <div class="header__info">
+            <div class="header__nav">
+                <a href="index.html" class="header__nav__link">Главная</a>
+                <a href="attendances.html" class="header__nav__link  header__nav__link-active">Услуги</a>
+                <a href="#" class="header__nav__link">Средства контроля</a>
+                <a href="about.html" class="header__nav__link">О фирме</a>
+                <a href="#" class="header__nav__link">Контакты</a>
+            </div>
+            <!-- /.header__nav -->
+            <div class="header__contacts">
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-facebook"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-insta"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-vk"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+            </div>
+            <!-- /.header__contacts -->
+           </div>
+           <!-- /.header__info -->
+        </div>
+        <!-- /.header__block -->
+    </header>
+    <!-- /.header -->
+    <section class="hero">
+        <div class="hero-content parallax-window" data-parallax="scroll" data-image-src="./img/attendances.jpg">
+            <h1 class="hero__title">Услуги</h1>
+        </div>
+    </section>
+    <!-- /.hero -->
+    <section class="section attendances">
+        <div class="container">
+            <h2 class="title">Услуги, которые мы предоставляем</h2>
+            <div class="attendances__cards">
+                <div class="attendances__card">
+                    <img src="./img/attendances/math.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Разработка математического обеспечения для бортовых авиационных комплексов</span>
+                </div>
+                <!-- /.attendances__card -->
+                <div class="attendances__card">
+                    <img src="./img/attendances/service.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Летательные аппараты и двигатели летательных аппаратов (ремонт, техническое обслуживание, переделка)</span>
+                </div>
+                <!-- /.attendances__card -->
+                <div class="attendances__card">
+                    <img src="./img/attendances/airplane.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Тренажеры наземные для летного состава (производство)</span>
+                </div>
+                <!-- /.attendances__card -->
+                <div class="attendances__card">
+                    <img src="./img/attendances/integrirovanie.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Интегрирование оборудования зарубежного производства в штатные бортовые комплексы</span>
+                </div>
+                <!-- /.attendances__card -->
+                <div class="attendances__card">
+                    <img src="./img/attendances/modeling.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Модернизация бортового оборудования летательных аппаратов в целях расширения их функциональных возможностей в соответствии с требованиями заказчика</span>
+                </div>
+                <!-- /.attendances__card -->
+                <div class="attendances__card">
+                    <img src="./img/attendances/radio.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Радио- и телепередающая аппаратура, аппаратура для проводной телефонной и телеграфной связи (производство) и многое другое.</span>
+                </div>
+                <!-- /.attendances__card -->
+                <div class="attendances__card">
+                    <img src="./img/attendances/indicator.png" alt="" class="attendances__card__img">
+                    <span class="attendances__card__text">Создание бортовых вычислительных комплексов и средств, бортовых индикаторов нового поколения на базе цветных жидкокристаллических панелей, современных радионавигационных комплексов и комплексов управления вооружением (CУB)
+                    </span>
+                </div>
+                <!-- /.attendances__card -->
+            </div>
+
+            <!-- /.attendances__cards -->
+            <button class="button">Заказать услугу</button>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.attendances -->
+    <footer class="footer">
+        <div class="footer__nav">
+            <a href="#" class="logo__link"><img src="img/logo.png" alt="" class="logo__img"></a>
+            <div class="footer__contacts">
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-facebook"></div>
+                </a>
+                <!-- /.footer__contacts__block -->
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-insta"></div>
+                </a>
+                <!-- /.footer__contacts__block -->
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-vk"></div>
+                </a>
+            <!-- /.header__contacts__block -->
+            </div>
+            <!-- /.footer__contacts -->
+        </div>
+        <!-- /.footer__nav -->
+</footer>
+<!-- /.footer -->
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АО Навигационное оборудование</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js" defer></script>
+    <!-- <script src="./slider/slick.min.js" defer></script> -->
+    <script src="./dist/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block">
+            <a href="index.html" class="logo__link"><div class="logo__link__img"></div></a>
+           <div class="header__info">
+            <div class="header__nav">
+                <a href="index.html" class="header__nav__link">Главная</a>
+                <a href="attendances.html" class="header__nav__link">Услуги</a>
+                <a href="#" class="header__nav__link">Средства контроля</a>
+                <a href="about.html" class="header__nav__link header__nav__link-active">О фирме</a>
+                <a href="#" class="header__nav__link">Контакты</a>
+            </div>
+            <!-- /.header__nav -->
+            <div class="header__contacts">
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-facebook"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-insta"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-vk"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+            </div>
+            <!-- /.header__contacts -->
+           </div>
+           <!-- /.header__info -->
+        </div>
+        <!-- /.header__block -->
+    </header>
+    <!-- /.header -->
+    <section class="hero">
+        <div class="hero-content parallax-window" data-parallax="scroll" data-image-src="./img/about.jpeg">
+            <h1 class="hero__title">О фирме</h1>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container">
+            <div class="info__slider">
+                <div class="info__slide">
+                    <div class="info__slide__img__block"><img src="img/about/project.jpg" alt="" class="info__slide__img"></div>
+                    <h3 class="info__slide__title">Проектирование</h3>
+                    <span class="info__slide__text">Создание технического проекта, исследования и расчёты изделия, создание технической документации.</span>
+                </div>
+                <div class="info__slide">
+                    <div class="info__slide__img__block"><img src="img/about/drawing.png" alt="" class="info__slide__img"></div>
+                    <h3 class="info__slide__title">Конструкторская документация</h3>
+                    <span class="info__slide__text">оздание комплекта графических и текстовых документов, чертежей и схем изделия.</span>
+                </div>
+                <div class="info__slide">
+                    <div class="info__slide__img__block"><img src="img/about/programming.jpg" alt="" class="info__slide__img"></div>
+                    <h3 class="info__slide__title">Программирование</h3>
+                    <span class="info__slide__text">Использование современного программного обеспечения и оборудования.</span>
+                </div>
+                <div class="info__slide">
+                    <div class="info__slide__img__block"><img src="img/about/detail.jpg" alt="" class="info__slide__img"></div>
+                    <h3 class="info__slide__title">Изготовление изделий</h3>
+                    <span class="info__slide__text">Современное оборудование, металлообработка, лазерная резка, гибка, сварка.</span>
+                </div>
+                <div class="info__slide">
+                    <div class="info__slide__img__block"><img src="img/about/assembling.jpg" alt="" class="info__slide__img"></div>
+                    <h3 class="info__slide__title">Сборка</h3>
+                    <span class="info__slide__text">Использование приспособлений, специальных инструментов и шаблонов, разработанных индивидуально под каждое изделие.</span>
+                </div>
+                <div class="info__slide">
+                    <div class="info__slide__img__block"><img src="img/about/control.jpg" alt="" class="info__slide__img"></div>
+                    <h3 class="info__slide__title">Контроль качества</h3>
+                    <span class="info__slide__text">Современные стенды для проверки работы изделия в условиях, максимально приближённых к реальным.</span>
+                </div>
+
+                <button class="info__slider__button info__slider__button-prev"></button>
+                <button class="info__slider__button info__slider__button-next"></button>
+                <div class="info__slider__dots">
+                    <div class="info__slider__dot"></div>
+                    <div class="info__slider__dot"></div>
+                    <div class="info__slider__dot"></div>
+                    <div class="info__slider__dot"></div>
+                    <div class="info__slider__dot"></div>
+                    <div class="info__slider__dot"></div>
+                </div>
+            </div>
+            <!-- /.info__slider -->
+            <div class="info__content">
+                <h2 class="info__content__title">Компания «АО Навигационное оборудование» была основана в 2016 году.</h2>
+                <p class="info__content__text">На сегодняшний день основной продукцией, выпускаемой предприятием, являются модули световой индикации, которые устанавливаются в кабины современных военных самолётов и вертолётов, таких как Су-27, Су-35, МИ-80 и других.</p>
+                <p class="info__content__text">На предприятии изготавливаются тренажёры, на которых будущие лётчики могут развить навыки полётов, ведения воздушного боя, а также отработать аварийные ситуации, которые могут произойти во время полёта. Тренажёр представляет собой кабину того или иного самолёта или вертолёта, которая в точности имитирует кабину настоящей боевой машины. Детали для кабины изготавливаются из дерева, дюралюминия марок Д16Т, АМЦн, АМГ; стали марок Ст20, Ст45, 30ХГСА, латуни, пластика, а также электронной «начинки».</p>
+                <p class="info__content__text">На участке предприятия установлено современное оборудование: токарные и фрезерные станки, фрезерные обрабатывающие центры с ЧПУ, токарные станки с ЧПУ, станки для обработки дерева, станок для лазерной резки и гравировки. Дружная семья рабочих состоит из слесарей механо–сборочных работ, слесарей-сборщиков, электромонтажников, лакировщиков, токарей, фрезеровщиков, программистов. Над разработкой деталей для конструкций трудятся конструктора и технологи.</p>
+            </div>
+            <!-- /.info__content -->
+            <div class="info__content">
+                <h2 class="info__content__title">Для изготовления продукции на предприятии используется современное программное обеспечение:</h2>
+                <p class="info__content__text">SolidWorks — программный комплекс САПР (системы автоматизированного производства) для автоматизации работ промышленного предприятия на этапах конструкторской и технологической подготовки производства. Обеспечивает разработку изделий любой степени сложности и назначения. Работает в среде Microsoft Windows. Разработан компанией SolidWorks Corporation, ныне являющейся независимым подразделением компании Dassault Systemes (Франция). Программа появилась в 1993 году и составила конкуренцию таким продуктам, как AutoCAD и Autodesk Mechanical Desktop, SDRC I-DEAS и Pro/ENGINEER.</p>
+                <div class="info__content__img__block">
+                    <img src="./img/about/SolidWorks.jpg" alt="" class="info__content__img">
+                    <span class="info__content__img__text">SolidWorks</span>
+                </div>
+                <!-- /.info__content__img__block -->
+            </div>
+            <!-- /.info__content -->
+            <div class="info__content">
+                <p class="info__content__text">SIEMENS NX — ключевой компонент системы технологического проектирования, которая также включает в себя средства передачи информации в производство и многие другие функции.</p>
+                <p class="info__content__text">Изготовление изделий со сложной геометрией внешних обводов требует соответствующего программного обеспечения для расчёта управляющей программы для станка с ЧПУ. В зависимости от сложности детали применяется токарная обработка, фрезерная обработка на станках с тремя-пятью управляемыми осями, токарно-фрезерная, электроэрозионная обработка проволокой. Система SIEMENS NX обладает всеми возможностями для формирования траекторий инструмента для соответствующих типов обработк.</p>
+                <p class="info__content__text">Набор средств для программирования станков с ЧПУ позволяет применять SIEMENS NX в самых разнообразных отраслях. SIEMENS NX внедрён и используется в авиационно-космической и оборонной промышленности, автомобилестроении, машиностроении, производстве потребительских товаров, медицинского оборудования и многих других отраслях.</p>
+                <div class="info__content__img__block">
+                    <img src="./img/about/SIEMENS_NX.jpg" alt="" class="info__content__img">
+                    <span class="info__content__img__text">SIEMENS NX</span>
+                </div>
+                <!-- /.info__content__img__block -->
+            </div>
+            <!-- /.info__content -->
+            <div class="info__content">
+                <p class="info__content__text">AutoCAD — двух- и трёхмерная система автоматизированного проектирования и черчения, разработанная компанией Autodesk. AutoCAD и специализированные приложения на его основе нашли широкое применение в машиностроении, строительстве, архитектуре и других отраслях промышленности.</p>
+                <p class="info__content__text">На металлорежущем оборудовании изготавливается основная часть изготавливаемой продукции. Для контроля качества используется современный измерительный инструмент. На каждом этапе изготовления продукции производится контроль качества при помощи ОТК.</p>
+                <p class="info__content__text">На сегодняшний день АО «Навигационное оборудование» является одним из ведущих предприятий концерна «Алмаз-Антей»</p>
+                <p class="info__content__text"></p>
+                <div class="info__content__img__block">
+                    <img src="./img/about/AutoCAD.png" alt="" class="info__content__img">
+                    <span class="info__content__img__text">AutoCAD</span>
+                </div>
+                <!-- /.info__content__img__block -->
+            </div>
+            <!-- /.info__content -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section info -->
+    <!-- /.hero -->
+    <footer class="footer">
+        <div class="footer__nav">
+            <a href="#" class="logo__link"><img src="img/logo.png" alt="" class="logo__img"></a>
+            <div class="footer__contacts">
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-facebook"></div>
+                </a>
+                <!-- /.footer__contacts__block -->
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-insta"></div>
+                </a>
+                <!-- /.footer__contacts__block -->
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-vk"></div>
+                </a>
+            <!-- /.header__contacts__block -->
+            </div>
+            <!-- /.footer__contacts -->
+        </div>
+        <!-- /.footer__nav -->
+</footer>
+<!-- /.footer -->
+</body>
+</html>
