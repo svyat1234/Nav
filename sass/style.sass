@@ -493,8 +493,8 @@ body
     &__slider
         position: relative
         justify-content: center
-        max-width: 400px
-        min-height: 430px
+        max-width: 550px
+        min-height: 500px
         margin: auto
         margin-top: -100px
         margin-bottom: 100px
@@ -547,19 +547,26 @@ body
         left: 0
         text-align: center
         &__img
-            height: 300px
+            height: 400px
+            min-width: 550px
             &__block
-                max-width: 500px
+                height: 400px
+                max-width: 550px
                 overflow: hidden
                 border-radius: 20px 
+                box-shadow: 0px 0px 10px rgba($dark, 0.7)
         &__title
             margin: 20px 0
     &__content
         margin-top: 50px
         &__title
             font-size: 18px
+            display: flex
+            justify-content: center
         &__text
             margin-top: 20px
+            &-b
+                font-weight: bold
         &__img
             max-width: 600px
             &__block
