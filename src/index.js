@@ -7,5 +7,3 @@ sliders()
 header()
 promo()
 aboutSlider()
-
-console.log("dsa");
