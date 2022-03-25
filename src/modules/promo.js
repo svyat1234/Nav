@@ -6,7 +6,7 @@ const promo = () => {
         let value = window.scrollY
 
         if (document.location.pathname === "/index.html" || document.location.pathname === "/Navigation/index.html" || document.location.pathname === "/Navigation/") {
-            if(value >= 1) {
+            if(value >= 20  ) {
                 heading.style.opacity = 0 
              } else {
                 heading.style.opacity = 1

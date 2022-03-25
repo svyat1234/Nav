@@ -8,8 +8,15 @@
 body
     font-family: 'PT Sans Caption'
     transition: scroll 14s
-    // background-color: #120042
-    // color: $light
+    &::-webkit-scrollbar 
+        width: 15px;
+    &::-webkit-scrollbar-thumb 
+        background: $light
+        border: 1px solid $dark
+    &::-webkit-scrollbar-track 
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2)
+        background: $dark
+
 .logo__img
     width: 60px
 .logo__link
@@ -21,6 +28,46 @@ body
     padding-top: 100px
     padding-bottom: 100px
     // background-color: #fff
+
+.transition-fade 
+  transition: 0.4s
+  opacity: 1
+
+html.is-animating .transition-fade 
+  opacity: 0
+
+.preloader 
+  position: fixed
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  background: rgba($light, 0.5);
+  z-index: 1001
+  &__item
+      &-img
+          width: 100px
+
+
+.preloader__row 
+  position: relative
+  top: 50%
+  left: 50%
+  width: 70px
+  height: 70px
+  margin-top: -35px
+  margin-left: -35px
+  text-align: center
+  animation: preloader-rotate 2s infinite linear
+
+
+.loaded_hiding .preloader
+  transition: 0.3s opacity
+  opacity: 0
+
+.loaded .preloader 
+  display: none
+
 .title
     font-size: 40px
     font-weight: 400
