@@ -4,6 +4,7 @@ import promo from './modules/promo'
 import aboutSlider from './modules/aboutSlider'
 import prepoader from './modules/prepoader'
 import phoneValid from './modules/phoneValid'
+import menu from './modules/menu'
 
 sliders()
 header()
@@ -11,4 +12,5 @@ promo()
 aboutSlider()
 prepoader()
 phoneValid()
+menu()
 

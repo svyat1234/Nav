@@ -265,6 +265,13 @@ html.is-animating .transition-fade {
   background-color: #000;
 }
 
+.header__nav-close {
+  position: absolute;
+  display: none;
+  top: 200px;
+  right: 100px;
+}
+
 .header__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1232,5 +1239,374 @@ html.is-animating .transition-fade {
 
 .map {
   margin-top: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    max-width: 1000px;
+  }
+  .attendance__img {
+    height: 300px;
+  }
+  .reviews-slider .slick-arrow.slick-next {
+    right: 45%;
+  }
+  .reviews-slider .slick-arrow.slick-prev {
+    left: 45%;
+  }
+  .facilities__card {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .container {
+    max-width: 800px;
+  }
+  .about__cards {
+    margin-top: 0;
+  }
+  .about__card {
+    margin-top: 30px;
+    max-width: 370px;
+  }
+  .about__card__title {
+    font-size: 22px;
+  }
+  .about__card__text {
+    font-size: 20px;
+  }
+  .about__img__block {
+    height: 250px;
+  }
+  .attendance__block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .attendance__item {
+    font-size: 20px;
+  }
+  .attendance__images {
+    display: none;
+  }
+  .attendance__info {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .tasks__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0;
+  }
+  .tasks__card {
+    max-width: 500px;
+    margin-top: 40px;
+  }
+  .tasks__card__title {
+    height: auto;
+  }
+  .tasks__card__text {
+    margin-top: 10px;
+  }
+  .tasks__number {
+    margin-bottom: 15px;
+  }
+  .attendances__card {
+    max-width: 45%;
+  }
+  .attendances__card__text {
+    font-size: 20px;
+  }
+  .facilities {
+    font-size: 20px;
+  }
+  .facilities__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .facilities__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+  }
+  .contacts__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contacts__connection {
+    margin-bottom: 50px;
+  }
+  .contacts__form {
+    max-width: 50%;
+  }
+  .contacts__form__title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    max-width: 650px;
+  }
+  .header {
+    background-color: white;
+  }
+  .header__content {
+    width: 40px;
+    height: 40px;
+    background: #000;
+  }
+  .header__info {
+    position: relative;
+    display: none;
+    opacity: 0;
+  }
+  .header__info-active {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .header__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    margin: 0;
+    font-size: 40px;
+  }
+  .header__nav__link {
+    margin-bottom: 20px;
+    color: #000;
+  }
+  .header__contacts {
+    display: none;
+  }
+  .logo__link__img {
+    background: url("../img/logo-dark.png") no-repeat center/cover;
+  }
+  .tasks__card__text {
+    font-size: 20px;
+  }
+  .control__text {
+    font-size: 20px;
+  }
+  .control__link {
+    font-size: 20px;
+  }
+  .about__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about__card {
+    margin-top: 50px;
+  }
+  .reviews-slider .slick-arrow.slick-next {
+    right: 40%;
+  }
+  .reviews-slider .slick-arrow.slick-prev {
+    left: 40%;
+  }
+  .slick-track {
+    padding-bottom: 30px;
+  }
+  .attendances__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .attendances__card {
+    max-width: 80%;
+  }
+  .hero__title {
+    font-size: 70px;
+  }
+  .info__slider__button-next {
+    margin-right: -70px;
+  }
+  .info__slider__button-prev {
+    margin-left: -70px;
+  }
+  .info {
+    font-size: 20px;
+  }
+  .info__slider {
+    min-height: 550px;
+  }
+  .info__slider__dot {
+    width: 15px;
+    height: 15px;
+  }
+  .info__slider__dots {
+    max-width: 130px;
+    margin-left: -65px;
+  }
+  .info__content__title {
+    font-size: 22px;
+  }
+  .contacts__form {
+    max-width: 100%;
+  }
+  .questions__text {
+    font-size: 20px;
+  }
+  .about__link {
+    font-size: 20px;
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info__slider {
+    max-width: 500px;
+    min-height: 500px;
+  }
+  .info__slide__img {
+    height: 350px;
+  }
+  .info__slide__img__block {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    max-width: 500px;
+  }
+  .promo__info__title {
+    font-size: 60px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .hero__title {
+    font-size: 50px;
+  }
+  .info__content__img {
+    max-width: 500px;
+  }
+  .info__slider {
+    max-width: 400px;
+    min-height: 450px;
+  }
+  .info__slide__img {
+    height: 300px;
+  }
+  .info__slide__img__block {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    max-width: 350px;
+  }
+  .header {
+    padding: 20px;
+  }
+  .header__nav {
+    font-size: 35px;
+  }
+  .promo__info__title {
+    font-size: 40px;
+  }
+  .promo__info__text {
+    font-size: 23px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .about__card {
+    max-width: 345px;
+  }
+  .attendance__item {
+    margin-bottom: 30px;
+  }
+  .reviews-slider .slick-arrow.slick-next {
+    right: 37%;
+  }
+  .reviews-slider .slick-arrow.slick-prev {
+    left: 37%;
+  }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .attendance-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .control-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .questions-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .reviews-slider .slick-arrow {
+    margin-bottom: -20px;
+  }
+  .info__slider {
+    min-height: 470px;
+  }
+  .info__slider__button-prev {
+    top: 105%;
+    margin-left: 0;
+    margin-bottom: -100px;
+  }
+  .info__slider__button-next {
+    top: 105%;
+    margin-right: 0;
+  }
+  .info__slider__dot {
+    width: 15px;
+    height: 15px;
+  }
+  .info__content__img {
+    max-width: 345px;
+  }
+  .contacts__tel {
+    font-size: 26px;
+  }
+  .contacts__form {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

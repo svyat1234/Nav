@@ -131,6 +131,7 @@ html.is-animating .transition-fade
     &__info
         display: flex
         align-items: center
+        &-active
     &__nav
         margin: auto
         margin-right: 50px
@@ -175,7 +176,11 @@ html.is-animating .transition-fade
             &-dark
                 &::before
                      background-color: $dark
-                    
+        &-close
+            position: absolute
+            display: none
+            top: 200px
+            right: 100px
             
     &__contacts
         display: flex
@@ -737,3 +742,262 @@ html.is-animating .transition-fade
         margin-top: 30px
 .map
     margin-top: 100px
+
+// Адаптация
+@media screen and (max-width: 1250px) 
+    .container
+        max-width: 1000px
+    .attendance__img
+        height: 300px
+    .reviews-slider .slick-arrow.slick-next
+        right: 45%
+    .reviews-slider .slick-arrow.slick-prev
+        left: 45%
+    .facilities
+        &__card
+            max-width: 450px
+@media screen and (max-width: 1050px) 
+    .container
+        max-width: 800px
+    .about
+        &__cards
+            margin-top: 0
+        &__card
+            margin-top: 30px
+            max-width: 370px
+            &__title
+                font-size: 22px
+            &__text
+                font-size: 20px
+        &__img
+            &__block
+                height: 250px
+    .attendance
+        &__block
+            align-items: center
+        &__item
+            font-size: 20px
+        &__images
+            display: none
+        &__info
+            flex-basis: 100%
+    .tasks
+        &__cards
+            flex-direction: column
+            align-items: center
+            margin-top: 0
+        &__card
+            max-width: 500px
+            margin-top: 40px
+            &__title
+                height: auto
+            &__text
+                margin-top: 10px
+        &__number
+            margin-bottom: 15px
+    .attendances
+        &__card
+            max-width: 45%
+            &__text
+                font-size: 20px
+    .facilities
+        font-size: 20px
+        &__cards
+            flex-direction: column
+        &__card
+            display: flex
+            flex-direction: column
+            align-items: center
+            max-width: 100%
+    .contacts
+        &__block
+            flex-direction: column
+        &__connection
+            margin-bottom: 50px
+        &__form
+            max-width: 50%
+            &__title
+                font-size: 22px 
+@media screen and (max-width: 850px) 
+    .container
+        max-width: 650px
+    .header
+        background-color: rgba($light, 1)
+        &__content
+            width: 40px
+            height: 40px
+            background: $dark
+            &-active
+        &__info
+            position: relative
+            display: none
+            opacity: 0
+            &-active
+                position: fixed
+                display: flex
+                justify-content: center
+                top: 0
+                left: 0
+                width: 100%
+                height: 100vh
+                background: rgba($dark, 0.7)
+
+        &__nav
+            flex-direction: column
+            width: auto
+            margin: 0
+            font-size: 40px
+            &__link
+                margin-bottom: 20px
+                color: $dark
+        &__contacts
+            display: none
+    .logo__link__img
+        background: url('../img/logo-dark.png') no-repeat center / cover
+    .tasks
+        &__card
+            &__text
+                font-size: 20px
+    .control
+        &__text
+            font-size: 20px
+        &__link
+            font-size: 20px
+    .about
+        &__cards
+            flex-direction: column
+            align-items: center
+        &__card
+            margin-top: 50px
+    .reviews-slider .slick-arrow.slick-next
+        right: 40%
+    .reviews-slider .slick-arrow.slick-prev
+        left: 40%
+    .slick-track
+        padding-bottom: 30px
+    .attendances
+        &__cards
+            flex-direction: column
+            align-items: center
+        &__card
+            max-width: 80%
+    .hero
+        &__title
+            font-size: 70px
+    .info__slider__button-next
+        margin-right: -70px
+    .info__slider__button-prev
+        margin-left: -70px
+    .info
+        font-size: 20px
+        &__slider
+            min-height: 550px
+            &__dot
+                width: 15px
+                height: 15px
+            &__dots
+                max-width: 130px
+                margin-left: -65px
+        &__content
+            &__title
+                font-size: 22px
+    .contacts
+        &__form
+            max-width: 100%
+    .questions__text
+        font-size: 20px
+    .about__link
+        font-size: 20px
+        max-width: 150px
+@media screen and (max-width: 700px)
+    .info
+        &__slider
+            max-width: 500px
+            min-height: 500px
+        &__slide
+            &__img
+                height: 350px
+                &__block
+                    height: 350px
+@media screen and (max-width: 650px)
+    .container
+        max-width: 500px 
+    .promo
+        &__info
+            &__title
+                font-size: 60px
+    .title
+        font-size: 30px
+    .hero
+        &__title
+            font-size: 50px
+    .info__content__img
+        max-width: 500px
+    .info
+        &__slider
+            max-width: 400px
+            min-height: 450px
+        &__slide
+            &__img
+                height: 300px
+                &__block
+                    height: 300px
+@media screen and (max-width: 540px)
+    .container
+        max-width: 350px 
+    .header
+        padding: 20px
+        &__nav
+            font-size: 35px
+    .promo
+        &__info
+            &__title
+                font-size: 40px
+            &__text
+                font-size: 23px
+    .title
+        font-size: 25px
+    .about
+        &__card
+            max-width: 345px
+    .attendance
+        &__item
+            margin-bottom: 30px
+    .reviews-slider .slick-arrow.slick-next
+        right: 37%
+    .reviews-slider .slick-arrow.slick-prev
+        left: 37%
+    .section
+        padding-top: 50px
+        padding-bottom: 50px
+    .attendance-content
+        padding-top: 50px
+        padding-bottom: 50px
+    .control-content
+        padding-top: 50px
+        padding-bottom: 50px
+    .questions-content
+        padding-top: 50px
+        padding-bottom: 50px
+    .reviews-slider .slick-arrow
+        margin-bottom: -20px
+    .info
+        &__slider
+            min-height: 470px
+    .info__slider__button-prev
+        top: 105%
+        margin-left: 0
+        margin-bottom: -100px
+    .info__slider__button-next
+        top: 105%
+        margin-right: 0
+    .info__slider__dot
+        width: 15px
+        height: 15px
+    .info__content__img
+        max-width: 345px
+    .contacts
+        &__tel
+            font-size: 26px
+        &__form
+            text-align: center
