@@ -1507,6 +1507,9 @@ html.is-animating .transition-fade {
   .info__slide__img__block {
     height: 350px;
   }
+  .facilities__title {
+    max-width: 330px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -1534,6 +1537,9 @@ html.is-animating .transition-fade {
   }
   .info__slide__img__block {
     height: 300px;
+  }
+  .facilities__title {
+    max-width: 100%;
   }
 }
 
@@ -1614,6 +1620,15 @@ html.is-animating .transition-fade {
   }
   .contacts__form {
     text-align: center;
+  }
+  .facilities__title {
+    max-width: 235px;
+  }
+  .facilities__img {
+    max-width: 350px;
+  }
+  .facilities__img__block {
+    max-height: 228px;
   }
 }
 /*# sourceMappingURL=style.css.map */
