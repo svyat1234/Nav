@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АО Навигационное оборудование</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js" defer></script>
+    <script src="./dist/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block">
+            <a href="index.html" class="logo__link"><div class="logo__link__img"></div></a>
+           <div class="header__info">
+            <div class="header__nav">
+                <a href="index.html" class="header__nav__link">Главная</a>
+                <a href="attendances.html" class="header__nav__link">Услуги</a>
+                <a href="control.html" class="header__nav__link">Средства контроля</a>
+                <a href="about.html" class="header__nav__link">О фирме</a>
+                <a href="contacts.html" class="header__nav__link header__nav__link-active">Контакты</a>
+            </div>
+            <!-- /.header__nav -->
+            <div class="header__contacts">
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-facebook"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-insta"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+                    <a href="#" class="header__contacts__link">
+                        <div class="header__contacts__block header__contacts__block-vk"></div>
+                    </a>
+                <!-- /.header__contacts__block -->
+            </div>
+            <!-- /.header__contacts -->
+           </div>
+           <!-- /.header__info -->
+        </div>
+        <!-- /.header__block -->
+    </header>
+    <!-- /.header -->
+    <section class="hero">
+        <div class="hero-content parallax-window" data-parallax="scroll" data-image-src="./img/contacts.jpg">
+            <h1 class="hero__title">Контакты</h1>
+        </div>
+    </section>
+    <!-- /.hero -->
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__block">
+                <div class="contacts__connection">
+                    <span class="contacts__tel">Телефон: +7 949 275 38 72</span>
+                    <div class="contacts__socials">
+                        <a href="#" class="contacts__socials__link">
+                            <div class="contacts__socials__link__block contacts__socials__link__block-facebook"></div>
+                        </a>
+                        <a href="#" class="contacts__socials__link">
+                            <div class="contacts__socials__link__block contacts__socials__link__block-insta"></div>
+                        </a>
+                        <a href="#" class="contacts__socials__link">
+                            <div class="contacts__socials__link__block contacts__socials__link__block-vk"></div>
+                        </a>
+                    </div>
+                    <!-- /.contacts__socials -->
+                </div>
+                <!-- /.contacts__connection -->
+                <form class="contacts__form">
+                    <h3 class="contacts__form__title">Отправьте заявку для связи с нами</h3>
+                    <input type="text" class="contacts__input" placeholder="Ваше имя:">
+                    <input type="tel" class="contacts__input" placeholder="Ваш телефон:">
+                    <button class="button contacts__button">Отправить заявку</button>
+                </form>
+                <!-- /.contacts__form -->
+            </div>
+            <!-- /.contacts__block -->
+        </div>
+        <!-- /.container -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6379.565555056702!2d38.16083543656389!3d55.57560728564952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac7644b9c3dcbbe1!2z0KLRg9C_0L7Qu9C10LLRgdC60LjQtSDQv9GA0L7RhdC-0LTQvdGL0LU!5e0!3m2!1sru!2sru!4v1648403656225!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- /.section contacts -->
+    <footer class="footer">
+        <div class="footer__nav">
+            <a href="#" class="logo__link"><img src="img/logo.png" alt="" class="logo__img"></a>
+            <div class="footer__contacts">
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-facebook"></div>
+                </a>
+                <!-- /.footer__contacts__block -->
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-insta"></div>
+                </a>
+                <!-- /.footer__contacts__block -->
+                <a href="#" class="footer__contacts__link">
+                    <div class="footer__contacts__block footer__contacts__block-vk"></div>
+                </a>
+            <!-- /.header__contacts__block -->
+            </div>
+            <!-- /.footer__contacts -->
+        </div>
+        <!-- /.footer__nav -->
+</footer>
+<!-- /.footer -->
+<div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"><img src="./img/Settings.gif" class="preloader__item-img" alt=""></div>
+    </div>
+</div>
+</body>
+</html>
