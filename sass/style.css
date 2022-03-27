@@ -268,8 +268,12 @@ html.is-animating .transition-fade {
 .header__nav-close {
   position: absolute;
   display: none;
-  top: 200px;
-  right: 100px;
+  top: 50px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/close.png") no-repeat center/cover;
+  border: none;
 }
 
 .header__contacts {
@@ -1372,7 +1376,7 @@ html.is-animating .transition-fade {
   .header__content {
     width: 40px;
     height: 40px;
-    background: #000;
+    background: url("../img/burger.png") no-repeat center/cover;
   }
   .header__info {
     position: relative;
@@ -1391,7 +1395,7 @@ html.is-animating .transition-fade {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
   }
   .header__nav {
     -webkit-box-orient: vertical;
@@ -1582,6 +1586,9 @@ html.is-animating .transition-fade {
   }
   .reviews-slider .slick-arrow {
     margin-bottom: -20px;
+  }
+  .info {
+    padding-bottom: 50px;
   }
   .info__slider {
     min-height: 470px;
