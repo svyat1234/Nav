@@ -24,7 +24,6 @@ const menu = () => {
                     link.style.color = "#fff"
                 })
             }
-            console.log("ds");
         modal.addEventListener('click', (e) => {
             if (e.target.classList.contains('header__nav-close')) {
                 animate({
