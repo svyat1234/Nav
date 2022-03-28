@@ -65,6 +65,15 @@ body::-webkit-scrollbar-track {
   color: tomato;
 }
 
+.condition {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: -25px;
+  width: 102px;
+  margin-left: -51px;
+}
+
 .transition-fade {
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -691,6 +700,7 @@ html.is-animating .transition-fade {
 }
 
 .questions__form {
+  position: relative;
   max-width: 300px;
   width: 100%;
   margin: auto;
@@ -1227,6 +1237,7 @@ html.is-animating .transition-fade {
 }
 
 .contacts__form {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
