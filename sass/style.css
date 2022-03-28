@@ -176,6 +176,7 @@ html.is-animating .transition-fade {
   font-size: 20px;
   border: none;
   background-color: #F1F1F1;
+  color: #292929;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -747,6 +748,7 @@ html.is-animating .transition-fade {
   font-size: 20px;
   border: none;
   background-color: #F1F1F1;
+  color: #292929;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -1394,6 +1396,10 @@ html.is-animating .transition-fade {
 }
 
 @media screen and (max-width: 850px) {
+  .button:hover {
+    background-color: #F1F1F1;
+    color: #292929;
+  }
   .container {
     max-width: 650px;
   }
@@ -1437,11 +1443,33 @@ html.is-animating .transition-fade {
     margin-bottom: 20px;
     color: #000;
   }
+  .header__nav__link:hover::before {
+    opacity: 0;
+  }
   .header__contacts {
     display: none;
   }
   .logo__link__img {
     background: url("../img/logo-dark.png") no-repeat center/cover;
+  }
+  .promo__info__button:hover {
+    background-color: #F1F1F1;
+    color: #292929;
+  }
+  .attendance__link:hover {
+    background-color: #116cff;
+    color: #fff;
+  }
+  .questions__button:hover {
+    background-color: #F1F1F1;
+    color: #292929;
+  }
+  .reviews-slider .slick-arrow {
+    opacity: 1;
+  }
+  .reviews-slider .slick-arrow:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .tasks__card__text {
     font-size: 20px;
@@ -1508,11 +1536,18 @@ html.is-animating .transition-fade {
     max-width: 130px;
     margin-left: -65px;
   }
+  .info__slider__button {
+    opacity: 1;
+  }
   .info__content__title {
     font-size: 22px;
   }
   .contacts__form {
     max-width: 100%;
+  }
+  .contacts__socials__link:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .questions__text {
     font-size: 20px;
