@@ -46,7 +46,6 @@ const validate = () => {
             }
             if(nameValid && telValid) {
                 condition.textContent = "Отправка..."
-                console.log("Ура!");
                 fetch('https://jsonplaceholder.typicode.com/posts', {
                     method: 'POST',
                     body: JSON.stringify({
@@ -59,13 +58,13 @@ const validate = () => {
                 })
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data);
                     inputName.value = ''
                     inputTel.value = ''
                     condition.textContent = "Отправлено!"
                 })
                 .catch(error => {
                     console.log(error);
+                    condition.textContent = "Ошибка!"
                 })
             }
         })
