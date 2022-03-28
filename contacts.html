@@ -79,8 +79,16 @@
                 <!-- /.contacts__connection -->
                 <form class="contacts__form">
                     <h3 class="contacts__form__title">Отправьте заявку для связи с нами</h3>
-                    <input type="text" class="contacts__input" placeholder="Ваше имя:">
-                    <input type="tel" class="contacts__input" placeholder="Ваш телефон:">
+                    <div class="input__block">
+                        <input type="text" class="contacts__input input" placeholder="Ваше имя:" name="name">
+                        <span class="form-error form-error-name"></span>
+                    </div>
+                    <!-- /.input__block -->
+                    <div class="input__block">
+                        <input type="tel" class="contacts__input input" placeholder="Ваш телефон:" name="tel">
+                        <span class="form-error form-error-tel"></span>
+                    </div>
+                    <!-- /.input__block -->
                     <button class="button contacts__button">Отправить заявку</button>
                 </form>
                 <!-- /.contacts__form -->

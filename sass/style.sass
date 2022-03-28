@@ -33,6 +33,18 @@ body
         justify-content: center
         margin-top: 30px
 
+.input
+    &__block
+        position: relative
+        width: 100%
+.form-error
+    display: none
+    position: absolute
+    bottom: 0
+    left: 0
+    margin-bottom: -20px
+    color: tomato
+
 .transition-fade 
   transition: 0.4s
   opacity: 1
@@ -427,16 +439,17 @@ html.is-animating .transition-fade
         flex-direction: column
     &__input
         padding: 10px
-        margin-top: 20px
+        margin-top: 30px
         font-size: 18px
         border: 1px solid $light
         background: transparent
         color: $light
+        width: 100%
         &::placeholder
             color: $light
     &__button
         cursor: pointer
-        margin-top: 20px
+        margin-top: 30px
         padding: 20px 40px
         text-transform: uppercase
         font-size: 20px
@@ -740,6 +753,7 @@ html.is-animating .transition-fade
         font-size: 18px
         text-align: center
         border: 2px solid $main
+        width: 100%
     &__button
         max-width: 300px
         margin: auto

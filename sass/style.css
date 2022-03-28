@@ -51,6 +51,20 @@ body::-webkit-scrollbar-track {
   margin-top: 30px;
 }
 
+.input__block {
+  position: relative;
+  width: 100%;
+}
+
+.form-error {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -20px;
+  color: tomato;
+}
+
 .transition-fade {
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -691,11 +705,12 @@ html.is-animating .transition-fade {
 
 .questions__input {
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 18px;
   border: 1px solid #fff;
   background: transparent;
   color: #fff;
+  width: 100%;
 }
 
 .questions__input::-webkit-input-placeholder {
@@ -716,7 +731,7 @@ html.is-animating .transition-fade {
 
 .questions__button {
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 20px 40px;
   text-transform: uppercase;
   font-size: 20px;
@@ -1233,6 +1248,7 @@ html.is-animating .transition-fade {
   font-size: 18px;
   text-align: center;
   border: 2px solid #F1F1F1;
+  width: 100%;
 }
 
 .contacts__button {

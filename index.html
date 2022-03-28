@@ -223,8 +223,16 @@
                 <h2 class="title questions__title">Остались вопросы?</h2>
                 <span class="questions__text">Оставьте заявку, мы свяжимся с вами в течение 5 минут!</span>
                 <form class="questions__form">
-                    <input type="text" class="questions__input" placeholder="Ваше имя">
-                    <input type="tel" class="questions__input" placeholder="Ваш телефон">
+                    <div class="input__block">
+                        <input type="text" class="input questions__input" placeholder="Ваше имя" name="name">
+                        <span class="form-error form-error-name"></span>
+                    </div>
+                    <!-- /.input__block -->
+                    <div class="input__block">
+                        <input type="tel" class="input questions__input" placeholder="Ваш телефон" name="tel">
+                        <span class="form-error form-error-tel"></span>
+                    </div>
+                    <!-- /.input__block -->
                     <button class="questions__button">Отправить</button>
                 </form>
                 <!-- /.questions__form -->
