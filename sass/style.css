@@ -1606,6 +1606,13 @@ html.is-animating .transition-fade {
 }
 
 @media screen and (max-width: 540px) {
+  .preloader__row {
+    margin-top: -35px;
+    margin-left: -35px;
+  }
+  .preloader__item-img {
+    width: 60px;
+  }
   .container {
     max-width: 350px;
   }
@@ -1614,6 +1621,14 @@ html.is-animating .transition-fade {
   }
   .header__nav {
     font-size: 35px;
+  }
+  .header__content {
+    width: 30px;
+    height: 30px;
+  }
+  .logo__link__img {
+    width: 40px;
+    height: 35px;
   }
   .promo__info__title {
     font-size: 40px;
