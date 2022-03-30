@@ -33,7 +33,7 @@ body::-webkit-scrollbar-track {
 .logo__link__img {
   width: 60px;
   height: 51px;
-  background: url("../img/logo1.png") no-repeat center/cover;
+  background: url("../img/logo.png") no-repeat center/cover;
 }
 
 .section {
