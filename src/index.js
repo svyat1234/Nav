@@ -6,6 +6,7 @@ import prepoader from './modules/prepoader'
 import phoneValid from './modules/phoneValid'
 import menu from './modules/menu'
 import validate from './modules/validate'
+import modal from './modules/modal'
 
 sliders()
 header()
@@ -15,5 +16,6 @@ prepoader()
 phoneValid()
 menu()
 validate()
+modal()
 
 

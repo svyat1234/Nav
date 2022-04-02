@@ -1,5 +1,4 @@
 const validate = () => {
-    if(document.location.pathname === "/Navigation/index.html" || document.location.pathname === "/Navigation/" || document.location.pathname === "/index.html" || document.location.pathname === "/Navigation/contacts.html" || document.location.pathname === "/Navigation/" || document.location.pathname === "/contacts.html") {
         const form = document.querySelector('form')
         const inputName = document.querySelector('[name = name]')
         const inputTel = document.querySelector('[name = tel]')
@@ -81,7 +80,6 @@ const validate = () => {
                 }
             })
         })
-    }
 }
 
 export default validate
