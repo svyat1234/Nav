@@ -1,6 +1,7 @@
 import { animate } from './helpers'
 const modal = () => {
-    if (document.title !== 'АО Навигационное оборудование' || document.title !== 'Контакты') {
+    if (document.title !== 'АО Навигационное оборудование' && document.title !== 'Контакты') {
+        console.log("ds");
     const modal = document.getElementById('modal')
     const modalBtn = document.getElementById('modalButton')
     

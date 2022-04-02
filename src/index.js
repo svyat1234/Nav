@@ -18,4 +18,4 @@ menu()
 validate()
 modal()
 
-
+new WOW().init(); 

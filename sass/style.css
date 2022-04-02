@@ -1291,12 +1291,6 @@ html.is-animating .transition-fade {
           align-items: center;
 }
 
-.modal-active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .modal__content {
   position: relative;
   max-width: 500px;
