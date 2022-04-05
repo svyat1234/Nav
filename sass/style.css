@@ -354,7 +354,7 @@ html.is-animating .transition-fade {
   background: rgba(0, 0, 0, 0.7);
 }
 
-.promo__slide__content {
+.promo__content {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
